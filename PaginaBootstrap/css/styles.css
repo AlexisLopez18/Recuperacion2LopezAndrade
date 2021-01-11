@@ -1,0 +1,51 @@
+
+body{
+    height: 100%;
+}
+img{
+    max-width: 100%;
+}
+#portada{
+    background: #000000 url('../img/79YhlsY.jpg') center center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+#texto-portada{
+    width: 100%;
+}
+
+.form-group{
+    width: 25%;
+}
+.historia{
+    padding: 5rem 0;
+    background: transparent  url('../img/ac73f73175205991350f99ea1d2db453.jpg') center center no-repeat ;
+    background-size: cover;
+}
+.historia .container{
+ background: rgba(0, 0, 0, .6);
+ color: white;
+ padding: 1.8rem;
+}
+
+.contenido{
+    padding: 5rem 0;
+    background: url('../img/1062816.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.contenido .container{
+    background: rgba(0, 0, 0, .6);
+    color: white;
+    text-align: justify;
+   }
+footer{
+    background: black;
+    color: white;
+    font-size: 1rem;
+    padding: 2.5rem 0;
+}
